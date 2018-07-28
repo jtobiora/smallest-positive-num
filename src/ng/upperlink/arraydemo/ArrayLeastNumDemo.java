@@ -1,20 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * A function that, given an array A of N integers, returns the smallest positive integer
+  that does not occur in A
  */
 package ng.upperlink.arraydemo;
 
-
-/**
- *
- * @author Toshiba
- */
 public class ArrayLeastNumDemo {
     public static void main(String[] args){
        int array[] = {-1,-3};
-       
-       System.out.println(getSmallestPositiveInteger(array));
+       int positiveNum = getSmallestPositiveInteger(array);
+       System.out.println(positiveNum);
     }
   
   public static int getSmallestPositiveInteger(int[] A) {
